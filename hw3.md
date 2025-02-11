@@ -250,8 +250,13 @@ In your homework3 root directory run
 ```bash
 make handin.zip
 ```
-Then you will see a `handin.zip` file under your root directory, please go to Gradescope and submit the zip.
+Then you will see a `handin.zip` file under your root directory. The zip file should contain the following two files:
+- `model/func_impl.py`
+- `data/data_parallel_preprocess.py`
 
+Then, please go to Gradescope and submit the zip.
+
+This assignment is not automatically graded, and you will not receive immediate feedback upon submission. You can submit multiple times, but only your final submission will be graded.
 
 #### References 
 
