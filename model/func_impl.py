@@ -344,38 +344,3 @@ def megatron_collect_backward_x(
     # Hint: your implementation should be within one line of code
 
     raise NotImplementedError
-
-
-def collect_weight_grad(
-    grad_w: np.ndarray,
-    grad_b: np.ndarray,
-    dp_comm,
-):
-    """The function for collecting weight gradients across data parallel nodes
-
-    Parameters
-    ----------
-        grad_w : np.ndarray
-            gradients value for fc weight on a single node of shape (in_dim, out_dim)
-
-        grad_b : np.ndarray
-            gradients value for fc bias on a single node of shape (1, out_dim)
-
-        dp_comm : Communicator
-            The Data Parallel communicator
-
-    Returns
-    -------
-        collected_grad_w : np.ndarray
-            collected gradients value of shape (in_dim, out_dim) for fc weight across different nodes
-
-        collected_grad_b : np.ndarray
-            collected gradients value of shape (1, out_dim) for fc bias across different nodes
-
-    """
-
-    """TODO: Your code here"""
-
-    # Hint: Think about how you might want to aggregate the gradients from different nodes in data parallel training
-
-    raise NotImplementedError
